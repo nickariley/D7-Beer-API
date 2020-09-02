@@ -9,7 +9,7 @@ import { IBeer } from './ibeer';
 })
 export class AppComponent implements OnInit{
   beers: IBeer[] = [];
-  
+
   constructor(private dataService: DataService) {
   }
   async ngOnInit(): Promise<void> {
